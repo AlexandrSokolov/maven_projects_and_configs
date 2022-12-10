@@ -10,7 +10,7 @@ $ npx create-react-app my-app && mv my-app react
 
 It is configured with `frontend-maven-plugin` plugin and `react.build.skip` property.
 
-See `pom.xml`
+See [pom.xml](pom.xml)
 
 #### Control react application building process
 
