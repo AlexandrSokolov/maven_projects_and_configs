@@ -6,6 +6,7 @@
 | Force maven update                           | `mvn -U`                                                                             | 
 | Skip test compilation and execution          | `mvn -Dmaven.test.skip=true`                                                         | 
 | Skip test execution                          | `mvn -DskipTests=true`                                                               | 
+| Run only integration tests                   | `mvn failsafe:integration-test`                                                      | 
 | Ignore errors                                | `mvn --fail-never`                                                                   | 
 | Pass variable, declared in `pom.xml`         | `mvn -Dskip.react.build=true`                                                        | 
 | Activate profile by its id                   | `mvn -Pdev1` or `mvn -P dev1`                                                        | 
