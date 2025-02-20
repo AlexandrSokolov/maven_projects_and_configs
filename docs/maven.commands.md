@@ -1,15 +1,16 @@
 
-| Purpose                              | Command                        |     
-|:-------------------------------------|:-------------------------------|
-| Verbose mode                         | `mvn -X -e`                    | 
-| Offline Mode                         | `mvn -o`                       | 
-| Force maven update                   | `mvn -U`                       | 
-| Skip test compilation and execution  | `mvn -Dmaven.test.skip=true`   | 
-| Skip test execution                  | `mvn -DskipTests=true`         | 
-| Ignore errors                        | `mvn --fail-never`             | 
-| Pass variable, declared in `pom.xml` | `mvn -Dskip.react.build=true`  | 
-| Activate profile by its id           | `mvn -Pdev1` or `mvn -P dev1`  | 
-| Run mvn on Windows in powershell     | `mvn \`-Dmaven.test.skip=true` | 
+| Purpose                                      | Command                                                                              |     
+|:---------------------------------------------|:-------------------------------------------------------------------------------------|
+| Verbose mode                                 | `mvn -X -e`                                                                          | 
+| Offline Mode                                 | `mvn -o`                                                                             | 
+| Force maven update                           | `mvn -U`                                                                             | 
+| Skip test compilation and execution          | `mvn -Dmaven.test.skip=true`                                                         | 
+| Skip test execution                          | `mvn -DskipTests=true`                                                               | 
+| Ignore errors                                | `mvn --fail-never`                                                                   | 
+| Pass variable, declared in `pom.xml`         | `mvn -Dskip.react.build=true`                                                        | 
+| Activate profile by its id                   | `mvn -Pdev1` or `mvn -P dev1`                                                        | 
+| Run mvn on Windows in powershell             | `mvn \`-Dmaven.test.skip=true`                                                       | 
+| Update versions in multi-module maven projct | `mvn versions:set -DnewVersion=1.2.3 -DprocessAllModules -DgenerateBackupPoms=false` | 
 
 
 
